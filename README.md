@@ -36,7 +36,7 @@ Informações complementares:
 
 # Tecnologias e ferramentas utilizadas
 ## Ferramentas
-- Java JDK (ver.21)
+- Java JDK (ver.17)
 - Apache Netbeans IDE
 - Postman
 
