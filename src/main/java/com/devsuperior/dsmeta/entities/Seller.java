@@ -68,5 +68,14 @@ public class Seller {
 
 	public List<Sale> getSales() {
 		return sales;
-	}	
+	}
+	
+	public Double getTotal(){
+		double total = 0;
+		
+		for (Sale sale : sales) {
+			total += sale.getAmount();
+		}
+		return total;
+	}
 }
